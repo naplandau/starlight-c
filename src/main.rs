@@ -9,6 +9,7 @@ const PRELINE_UI_SCRIPT: Asset = asset!("./node_modules/preline/dist/preline.js"
 mod components;
 mod route;
 mod pages;
+mod layouts;
 
 fn main() {
     launch(App);

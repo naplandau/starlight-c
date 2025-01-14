@@ -2,6 +2,7 @@
 
 Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
 ```bash
+npm install -D @tailwindcss/forms
 npx tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
 npm install
 ```
