@@ -1,2 +1,21 @@
-# starlight-c
-A StarlightC project is a crossplatform application for Starlight ecosystem
+# Development
+
+Your new bare-bones project includes minimal organization with a single `main.rs` file and a few assets.
+```bash
+npx tailwindcss -i ./input.css -o ./assets/tailwind.css --watch
+npm install
+```
+
+### Serving Your App
+
+Run the following command in the root of your project to start developing with the default platform:
+
+```bash
+dx serve --platform web
+```
+
+To run for a different platform, use the `--platform platform` flag. E.g.
+```bash
+dx serve --platform desktop
+```
+
